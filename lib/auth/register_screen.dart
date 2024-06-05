@@ -12,18 +12,18 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ElevatedButton(onPressed: (){
-        checkIsYourLoggedIn(0);
+        // checkIsYourLoggedIn(0);
       },child: Text("Check user"),),
     );
   }
 
-  checkIsYourLoggedIn(int a){
-    if(a == 0){
-      return true;
-    }else{
-      return true;
-    }
-  }
+  // checkIsYourLoggedIn(int a){
+  //   if(a == 0){
+  //     return true;
+  //   }else{
+  //     return true;
+  //   }
+  // }
 }
 
 
