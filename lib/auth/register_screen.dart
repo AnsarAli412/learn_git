@@ -19,7 +19,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   checkIsYourLoggedIn(int a){
     if(a == 0){
-      return false;
+      return true;
     }else{
       return true;
     }
