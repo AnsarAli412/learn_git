@@ -80,8 +80,12 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(
               height: 50,
             ),
+
             ElevatedButton(style: ButtonStyle(backgroundColor: WidgetStatePropertyAll(Colors.pink)),
                 onPressed: (){
+
+
+
               Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage(),));
             }, child: Text("Add data"))
           ],
