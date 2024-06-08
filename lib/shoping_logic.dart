@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 class ShopingClass {
   viewappBar(String name, [IconData? icon]) {
     return Padding(
-        padding: EdgeInsets.only(right: 10),
+        padding: const EdgeInsets.only(right: 10),
         child: AppBar(
           elevation: 0,
           backgroundColor: Colors.white,
           title: Text(name,
-              style: TextStyle(
+              style: const TextStyle(
                   fontSize: 20,
                   color: Colors.black,
                   fontWeight: FontWeight.bold)),
@@ -28,10 +28,10 @@ class viewimage extends ShopingClass {
 class viewtext extends viewimage {
   showtext(String) {
     return
-      Padding(padding: EdgeInsets.only(left:18),
+      Padding(padding: const EdgeInsets.only(left:18),
           child: Text(
             String,
-            style: TextStyle(fontSize: 14),
+            style: const TextStyle(fontSize: 14),
             textAlign:  TextAlign.left,
           )
       );
@@ -41,7 +41,7 @@ class viewtext extends viewimage {
 class circulerimage extends viewtext {
   viewcirkularimage(Image) {
     return Padding(
-        padding: EdgeInsets.only(right: 15),
+        padding: const EdgeInsets.only(right: 15),
         child: CircleAvatar(
           backgroundImage: NetworkImage(Image),
           backgroundColor: Colors.white,
@@ -62,7 +62,7 @@ class circulerimage extends viewtext {
 class imagedowntexet extends circulerimage {
   showimagebuttomtext(String name) {
     return Padding(
-        padding: EdgeInsets.only(right: 20, left: 19),
+        padding: const EdgeInsets.only(right: 20, left: 19),
         child: Row(
           children: [
             Text(name, style: TextStyle()),
