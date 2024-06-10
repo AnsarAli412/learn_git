@@ -13,15 +13,15 @@ class _AccessibilityScreenState extends State<AccessibilityScreen> {
       appBar: AppBar(
         title: Text("Accessibility",style: TextStyle(color:Colors.black,fontSize: 20),),
 
-        leading: Icon(Icons.arrow_back,
-        ),
+        leading: Icon(Icons.arrow_back, ),
 
       ),
       body: Column(
         children: [
-          Text("Capitions",style: ,),
+          Text("Capitions"),
           SizedBox(height: 20,),
           Text("Dark mode"),
+
         ],
       ),
     );
