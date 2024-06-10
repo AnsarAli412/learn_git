@@ -161,7 +161,6 @@ class _SettingsActivityState extends State<SettingsActivity> {
               const Padding(
                 padding: EdgeInsets.only(right: 227),
                 child: Text("Login",style: TextStyle(fontWeight: FontWeight.bold),),),
-
               const ListTile(leading: Icon(Icons.help),title: Text("Add account"),),
 
               const ListTile(leading: Icon(Icons.person),title: Text("Log out"),),
