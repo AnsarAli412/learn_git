@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'device_permissions_Screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
