@@ -10,7 +10,18 @@ class _devicePermissionsScreenState extends State<devicePermissionsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+appBar: AppBar(
+  actions: [
+    Icon(Icons.phone_android_outlined,),
+  ],
+  title: Text("Device permissions",style: TextStyle(fontSize: 18),
+  ),
+  ),
+      body: Column(
+        children: [
 
+        ],
+      ),
     );
   }
 }
