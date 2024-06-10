@@ -17,39 +17,45 @@ class _InstaHelpScreenState extends State<InstaHelpScreen> with InstaUi {
       body: SafeArea(
         child: Column(
           children: [
-            InstaUi().listTile(
-              // IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
-                Text("help",style: TextStyle(fontWeight: FontWeight.w700,fontSize: 15),)),
-            InstaUi().listTile(
+            listTile(
+                // IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+                Text(
+              "help",
+              style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+            )),
+            listTile(
                 Text("Report a problem"),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.arrow_forward_ios_rounded,size: 17,))),
-            InstaUi().listTile(
+                    icon: Icon(
+                      Icons.arrow_forward_ios_rounded,
+                      size: 17,
+                    ))),
+            listTile(
                 Text("Account Status"),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.arrow_forward_ios_rounded,size: 17))),
-            InstaUi().listTile(
+                    icon: Icon(Icons.arrow_forward_ios_rounded, size: 18))),
+            listTile(
                 Text("Meta Verified"),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.arrow_forward_ios_rounded,size: 17))),
-            InstaUi().listTile(
+                    icon: Icon(Icons.arrow_forward_ios_rounded, size: 18))),
+            listTile(
                 Text("Help Center"),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.arrow_forward_ios_rounded,size: 17))),
-            InstaUi().listTile(
+                    icon: Icon(Icons.arrow_forward_ios_rounded, size: 18))),
+            listTile(
                 Text("Privacy and Security"),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.arrow_forward_ios_rounded,size: 17))),
-            InstaUi().listTile(
+                    icon: Icon(Icons.arrow_forward_ios_rounded, size: 18))),
+            listTile(
                 Text("Spport Request"),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.arrow_forward_ios_rounded,size: 17)))
+                    icon: Icon(Icons.arrow_forward_ios_rounded, size: 18)))
           ],
         ),
       ),
