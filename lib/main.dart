@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
 
 debugShowCheckedModeBanner: false,
-      home:  MyHomePage(),
+      home:  AccountType(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget with AccountVeiw{
-  const MyHomePage({super.key});
+class AccountType extends StatelessWidget with AccountVeiw{
+  const AccountType({super.key});
 
   @override
   Widget build(BuildContext context) {
