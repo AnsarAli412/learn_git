@@ -103,195 +103,195 @@ feed.we don't send notifications when you edit
               Text("based on your activity on Instagram.."),
             ],
           ),
-          Expanded(
-            child: ListView(
-              children: [
-                Column(
-                  children: [
-                    ListTile(
-                      leading: CircleAvatar(
-                        backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s"),
-                      ),
-                      title: Text("aparna"),
-                      subtitle: Text("pandey"),
-                      trailing: Icon(Icons.remove),
-                    ),
-                  ],
-                )
-              ],
-            ),
-          ),
-          Expanded(
-            child: ListView(
-              children: [
-                Column(
-                  children: [
-                    ListTile(
-                      leading: CircleAvatar(
-                        backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s"),
-                      ),
-                      title: Text("aparna"),
-                      subtitle: Text("pandey"),
-                      trailing: Icon(Icons.remove),
-                    ),
-                  ],
-                )
-              ],
-            ),
-          ),
-
-          Expanded(
-            child: ListView(
-              children: [
-                Column(
-                  children: [
-                    ListTile(
-                      leading: CircleAvatar(
-                        backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s"),
-                      ),
-                      title: Text("aparna"),
-                      subtitle: Text("pandey"),
-                      trailing: Icon(Icons.remove),
-                    ),
-                  ],
-                )
-              ],
-            ),
-          ),
-
-          Expanded(
-            child: ListView.builder(
-              itemCount: 10,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("Fuggi_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: 2,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("Aashika_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: 3,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("puja_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount:1,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("kajal_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount:1,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("Nagma_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount:1,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("henaa_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount:1,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
-                    ),
-                    radius:16,
-                  ),
-                  title: Text("jyoti_002  "),
-                  subtitle: Text("Subtitle"),
-                  trailing: Icon(Icons.remove),
-
-                );
-              },
-            ),
-          ),
+          // Expanded(
+          //   child: ListView(
+          //     children: [
+          //       Column(
+          //         children: [
+          //           ListTile(
+          //             leading: CircleAvatar(
+          //               backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s"),
+          //             ),
+          //             title: Text("aparna"),
+          //             subtitle: Text("pandey"),
+          //             trailing: Icon(Icons.remove),
+          //           ),
+          //         ],
+          //       )
+          //     ],
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView(
+          //     children: [
+          //       Column(
+          //         children: [
+          //           ListTile(
+          //             leading: CircleAvatar(
+          //               backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s"),
+          //             ),
+          //             title: Text("aparna"),
+          //             subtitle: Text("pandey"),
+          //             trailing: Icon(Icons.remove),
+          //           ),
+          //         ],
+          //       )
+          //     ],
+          //   ),
+          // ),
+          //
+          // Expanded(
+          //   child: ListView(
+          //     children: [
+          //       Column(
+          //         children: [
+          //           ListTile(
+          //             leading: CircleAvatar(
+          //               backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s"),
+          //             ),
+          //             title: Text("aparna"),
+          //             subtitle: Text("pandey"),
+          //             trailing: Icon(Icons.remove),
+          //           ),
+          //         ],
+          //       )
+          //     ],
+          //   ),
+          // ),
+          //
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount: 10,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("Fuggi_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount: 2,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("Aashika_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount: 3,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("puja_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount:1,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("kajal_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount:1,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("Nagma_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount:1,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("henaa_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
+          // Expanded(
+          //   child: ListView.builder(
+          //     itemCount:1,
+          //     itemBuilder: (context, index) {
+          //       return ListTile(
+          //         leading: CircleAvatar(
+          //           backgroundImage: NetworkImage(
+          //             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp5ZA55fUsqsV-1FNBEQzLkhQ51ha2Q5fOQ&s",
+          //           ),
+          //           radius:16,
+          //         ),
+          //         title: Text("jyoti_002  "),
+          //         subtitle: Text("Subtitle"),
+          //         trailing: Icon(Icons.remove),
+          //
+          //       );
+          //     },
+          //   ),
+          // ),
           // Expanded(
           //   child: ListView.builder(
           //     itemCount:1,
@@ -311,6 +311,84 @@ feed.we don't send notifications when you edit
           //     },
           //   ),
           // ),
+
+
+          ListTile(
+            contentPadding: EdgeInsets.all(20),
+            leading:CircleAvatar(
+              backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbUJMel09tRUYZWPlAMIsH63ikO1XZwqLzGHz6dusqmDfQM2c9_tmT8BWVpWFjIdaL68&usqp=CAU"),
+              radius: 30,
+            ),
+
+            title: Text("aparna"),
+            subtitle: Text("wowo"),
+            trailing:Padding(
+              padding: EdgeInsets.only(left: 20),
+
+
+    )
+              ),
+          ListTile(
+              contentPadding: EdgeInsets.all(20),
+              leading:CircleAvatar(
+                backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbUJMel09tRUYZWPlAMIsH63ikO1XZwqLzGHz6dusqmDfQM2c9_tmT8BWVpWFjIdaL68&usqp=CAU"),
+                radius: 30,
+              ),
+
+              title: Text("aparna"),
+              subtitle: Text("pandey"),
+              trailing:Padding(
+                padding: EdgeInsets.only(left: 20),
+
+
+              )
+          ),
+          ListTile(
+              contentPadding: EdgeInsets.all(20),
+              leading:CircleAvatar(
+                backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbUJMel09tRUYZWPlAMIsH63ikO1XZwqLzGHz6dusqmDfQM2c9_tmT8BWVpWFjIdaL68&usqp=CAU"),
+                radius: 30,
+              ),
+
+              title: Text("aparna"),
+              subtitle: Text("pandey"),
+              trailing:Padding(
+                padding: EdgeInsets.only(left: 20),
+
+
+              )
+          ),
+          ListTile(
+              contentPadding: EdgeInsets.all(20),
+              leading:CircleAvatar(
+                backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbUJMel09tRUYZWPlAMIsH63ikO1XZwqLzGHz6dusqmDfQM2c9_tmT8BWVpWFjIdaL68&usqp=CAU"),
+                radius: 30,
+              ),
+
+              title: Text("aparna"),
+              subtitle: Text("pandey"),
+              trailing:Padding(
+                padding: EdgeInsets.only(left: 20),
+
+
+              )
+          ),
+          ListTile(
+              contentPadding: EdgeInsets.all(20),
+              leading:CircleAvatar(
+                backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbUJMel09tRUYZWPlAMIsH63ikO1XZwqLzGHz6dusqmDfQM2c9_tmT8BWVpWFjIdaL68&usqp=CAU"),
+                radius: 30,
+              ),
+
+              title: Text("aparna"),
+              subtitle: Text("pandey"),
+              trailing:Padding(
+                padding: EdgeInsets.only(left: 20),
+
+
+              )
+          ),
+
         ],
       ),
     );
