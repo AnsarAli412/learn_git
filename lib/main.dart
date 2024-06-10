@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learn_git/view_close_frinds_ui.dart';
 
-import 'logic_screen.dart';
+
 void main(){
   runApp(MyApp());
 }
