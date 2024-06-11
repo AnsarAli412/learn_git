@@ -29,8 +29,8 @@ class _MarineViewScreenState extends State<MarineViewScreen> {
     return  Scaffold(
       appBar: AppBar(
         elevation: 50,
-        backgroundColor: Colors.lightBlueAccent,
-        title: Text("Marine Api"),
+        backgroundColor: Colors.purple,
+        title: Center(child: Text("~* Weather Marine *~",style: TextStyle(color: Colors.white),)),
       ),
 
       body: Column(
@@ -77,7 +77,7 @@ class _MarineViewScreenState extends State<MarineViewScreen> {
               child: Container(
                 height: 250,
                 width: 360,
-                color: Colors.green,
+                color: Colors.purple,
                 child: Card(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
