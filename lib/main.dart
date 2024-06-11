@@ -1,23 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:learn_git/weather_app/weather_screen.dart';
 
 void main() {
   runApp(WeatherApp());
 }
 
-class WeatherApp extends StatefulWidget {
+class WeatherApp extends StatelessWidget {
   const WeatherApp({super.key});
 
   @override
-  State<WeatherApp> createState() => _WeatherAppState();
-}
-
-class _WeatherAppState extends State<WeatherApp> {
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("TimeZone"),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SearchTimeZone(),
     );
   }
 }
+
+
