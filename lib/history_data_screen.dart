@@ -77,7 +77,6 @@ class _HistoryDataScreenState extends State<HistoryDataScreen> {
               ),
             ),
             const SizedBox(height: 30,),
-
             FutureBuilder(
               future: _futuresearch,
               builder: (context, snapshot) {
