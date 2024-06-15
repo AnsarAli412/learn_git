@@ -1,4 +1,3 @@
-
 // To parse this JSON data, do
 //
 //     final historyModel = historyModelFromJson(jsonString);
@@ -460,6 +459,3 @@ class EnumValues<T> {
     return reverseMap;
   }
 }
-
-
-
