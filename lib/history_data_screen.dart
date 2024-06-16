@@ -34,6 +34,7 @@ class _HistoryDataScreenState extends State<HistoryDataScreen> {
           style: TextStyle(color: Colors.white),
         ),
       ),
+
       body: ListView(
         children: [
           Padding(
