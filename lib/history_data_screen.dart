@@ -3,7 +3,7 @@ import 'history_api_services.dart';
 import 'history_model_screen.dart';
 
 class HistoryDataScreen extends StatefulWidget {
-  const HistoryDataScreen({Key? key}) : super(key: key);
+  const HistoryDataScreen({super.key});
 
   @override
   State<HistoryDataScreen> createState() => _HistoryDataScreenState();
@@ -68,7 +68,7 @@ class _HistoryDataScreenState extends State<HistoryDataScreen> {
             future: _futureSearch,
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
-                return Center(child: CircularProgressIndicator());
+                return const Center(child: CircularProgressIndicator());
               }
               else if (snapshot.hasData) {
                 var locationData = snapshot.data!.location;
