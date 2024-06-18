@@ -1,6 +1,8 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
-import 'age_filter_screen.dart';
+import 'ordres_ui_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,16 +11,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-       debugShowCheckedModeBanner: false,
-
-      home:  HomePage(),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: OrdersScreen(),
     );
   }
 }
-
-
