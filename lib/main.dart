@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:learn_git/weather_search_screen.dart';
 
+import 'astronomy/astronomy_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home:  WeatherSearchScreen(),
+      home: AstronomyScreen(),
     );
   }
 }
